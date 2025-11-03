@@ -162,7 +162,7 @@ Jobs are retried with backoff. If a device is unhealthy, the queue reassigns the
 **Do I need ADB connected by cable?**  
 No. The system supports ADB-less, wireless control. Cable-based ADB is optional for debugging or initial provisioning.
 
-## Performance & Reliability Benchmarks (must)
+## Performance & Reliability Benchmarks 
 
 - **Execution Speed:** ~150–300 scheduled sends/min across a 20-device pool (typical media-light campaigns); auto scales with more workers/devices.  
 - **Success Rate:** 95% end-to-end delivery across heterogeneous devices and networks under normal operating conditions.  
